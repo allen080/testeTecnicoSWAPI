@@ -1,5 +1,15 @@
+'''
+	Descrição:
+		Script de teste técnico para calculo do Nº de paradas necessárias para se
+		percorrer uma distancia nas espaçonaves listadas na SWAPI (https://swapi.dev)
+	Criado por:
+		Luan F. (allen080)
+'''
+
 import sys
 import requests
+
+sys.path.insert(1,"./pythonCodes")
 import swapiFunctions # arquivo com as funções utilizadas na API
 
 apiURL = f'https://swapi.dev/api/starships/' # URL Inicial da API
