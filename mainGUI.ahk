@@ -1,3 +1,6 @@
+/* Interface Gráfica para Exibição e Cálculo das paradas das naves
+*/
+
 #SingleInstance, Force
 #Include, ahkCodes/gui.ahk
 #Include, ahkCodes/funcoesAuxiliares.ahk
