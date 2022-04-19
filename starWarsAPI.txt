@@ -1,0 +1,19 @@
+ex = 10000000
+yWing = 80/h
+
+milenium = 75/h
+2Meses = 1440
+2Meses rodando 75h = 75*1440 = 108000
+108000 * 9 = 972000
+
+yWing = 80/h
+1Semana = 168
+1Semana 80 = 13440
+	1 parada em 13440
+total = 13440*74 = 
+
+Rebel = 20/h
+6Meses = 4320/h
+6 Meses em 20h = 86400 = 1 parada
+Total = 86400 * 11
+
