@@ -2,7 +2,10 @@ from math import floor
 
 timesDay = {'day':1,'week':7,'month':30,'year':360}
 
-def calculateShipDistance(shipMGLT, shipConsumables):
+def calculateShipStops(totalDistance, shipMGLT, shipConsumables):
+    if type(shipMGLT) == str:
+        return shipMGLT
+
     global timesDay
     horas = -1
 
@@ -16,5 +19,5 @@ def calculateShipDistance(shipMGLT, shipConsumables):
         exit(2)
 
     paradaInicial = horas*shipMGLT
-    totalParadas = floor(1000000/paradaInicial)
+    totalParadas = floor(totalDistance/paradaInicial)
     return totalParadas
