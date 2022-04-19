@@ -10,8 +10,8 @@ def calculateShipStops(totalDistance, shipMGLT, shipConsumables):
     horas = -1
 
     for i in timesDay:
-        if consumables.endswith(i):
-            horas = float(consumables.split(' ')[0]) * timesDay[i] * 24
+        if shipConsumables.endswith(i):
+            horas = float(shipConsumables.split(' ')[0]) * timesDay[i] * 24
             break
 
     if horas == -1:

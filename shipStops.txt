@@ -1,0 +1,36 @@
+CR90 corvette: 1
+Star Destroyer: 0
+Sentinel-class landing craft: 19
+Death Star: 3
+Millennium Falcon: 9
+Y-wing: 74
+X-wing: 59
+TIE Advanced x1: 79
+Executor: 0
+Rebel transport: 11
+Slave 1: 19
+Imperial shuttle: 13
+EF76 Nebulon-B escort frigate: 1
+Calamari Cruiser: 0
+A-wing: 49
+B-wing: 65
+Republic Cruiser: Unknown
+Droid control ship: Unknown
+Naboo fighter: Unknown
+Naboo Royal Starship: Unknown
+Scimitar: Unknown
+J-type diplomatic barge: Unknown
+AA-9 Coruscant freighter: Unknown
+Jedi starfighter: Unknown
+H-type Nubian yacht: Unknown
+Republic Assault ship: Unknown
+Solar Sailer: Unknown
+Trade Federation cruiser: Unknown
+Theta-class T-2c shuttle: Unknown
+Republic attack cruiser: Unknown
+Naboo star skiff: Unknown
+Jedi Interceptor: Unknown
+arc-170: 83
+Banking clan frigte: Unknown
+Belbullab-22 starfighter: Unknown
+V-wing: Unknown
