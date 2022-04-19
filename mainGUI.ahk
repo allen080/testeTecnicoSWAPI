@@ -9,7 +9,7 @@ Gui, Font, s11
 Gui, Add, Button, x310 y54 gCalcularParadasNavios, Calcular
 
 Gui, Font, s10 bold
-Gui, Add, Text, x122 y119 h20, Quantidade de paradas por nave:
+Gui, Add, Text, x122 y119 h20 vParadasTexto, Quantidade de paradas por nave:
 Gui, Font
 Gui, Add, ListView, x12 y139 w430 h170, Nome da Nave                  |Paradas necessarias
 
@@ -18,11 +18,20 @@ return
 
 CalcularParadasNavios:
     Gui, Submit, NoHide
+    LV_Delete()
+
+    GuiControl,, paradasTexto, [*] Calculando... 
     comando := "python main.py " . mglt . " > shipStops.txt"
-    MSgBox, % comando
     RunWait, %comspec% /c %comando%,,hide
-    MsgBox, ok 
+
+    if(ErrorLevel != 0){
+        GuiControl,, paradasTexto, [ ! ] Erro no calculo (ErrorCode: %ErrorLevel%)
+        Return
+    }
+
+    GuiControl,, paradasTexto, Quantidade de paradas por nave:
     addDistancesList()
+
     Return
 GuiClose:
     ExitApp
